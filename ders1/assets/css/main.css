@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.services {
+  padding: 80px 0;
+}
+.services .container {
+  width: 1200px;
+  margin: auto;
+}
+.services .title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: black;
+}
+.services .services-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+}
+.services .services-list .service-card {
+  width: 32%;
+  text-align: center;
+  display: flex;
+}
+.services .services-list .service-card .icon {
+  width: 100%;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 28px;
+}
+.services .services-list .service-card h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+.services .services-list .service-card p {
+  text-align: start;
+  font-size: 15px;
+  color: #666;
+  line-height: 1.5;
+}
+.services .services-list .service-card .learn {
+  font-size: 15px;
+  color: orangered;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.services .services-list .service-card .learn:hover {
+  letter-spacing: 1px;
+}
